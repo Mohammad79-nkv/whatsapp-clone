@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { ChangeEvent, ChangeEventHandler, useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
 import { v4 as uuidv4 } from 'uuid';
 
